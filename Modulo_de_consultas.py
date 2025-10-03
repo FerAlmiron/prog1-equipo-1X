@@ -35,7 +35,7 @@ def buscar_producto(stdscr, inventario):
 
     stdscr.clear()
     if resultados:
-        mostrar_inventario(stdscr, resultados)  # reutilizamos tu función
+        mostrar_inventario(stdscr, resultados)  # reutilizamos la función
     else:
         stdscr.addstr(0, 0, "No se encontró el producto.")
         stdscr.getch()
