@@ -516,7 +516,7 @@ def menu(stdscr):
             elif seleccion == 5:
                 mostrar_balance(stdscr)
             elif seleccion == 6:
-                guardar_inventario(stdscr)
+                guardar_inventario(stdscr, inventario)
                 break
 
 
