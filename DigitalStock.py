@@ -519,6 +519,5 @@ def menu(stdscr):
                 guardar_inventario(inventario)
                 break
 
-main
 if __name__ == "__main__":
     curses.wrapper(menu)
